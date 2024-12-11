@@ -1,0 +1,13 @@
+class Square
+{
+static void square()
+	{
+	int length = 5;
+	int result = length*length;
+	System.out.println("Area of square is "+result);
+	}
+	public static void main(String [] args)
+	{
+		square();
+	}
+}

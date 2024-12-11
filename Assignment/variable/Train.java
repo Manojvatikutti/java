@@ -1,0 +1,16 @@
+class Train
+{
+static String name = "vande barath";
+static String start = "bengaluru";
+static String destination = "hubli";
+static String stop = "davangere";
+public static void main (String [] args)
+{
+int fare = 275;
+System.out.println("train name is : "+name);
+System.out.println("train start from : "+start);
+System.out.println("trains destination is : "+destination);
+System.out.println("trains intermideate stop is : "+stop);
+System.out.println("train fare is : "+fare);
+}
+}
