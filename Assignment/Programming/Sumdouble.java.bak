@@ -1,0 +1,18 @@
+class Sumdouble
+{
+	static int sumdouble(int a, int b)
+	{
+		int sum = a+b;
+		if (a == b)
+		{
+			return 2*sum;
+		}
+		return sum;
+	}
+	public static void main (String [] args)
+	{
+		System.out.println(sumdouble(1,2));
+		System.out.println(sumdouble(3,2));
+		System.out.println(sumdouble(2,2));
+	}
+}
